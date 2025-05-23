@@ -41,7 +41,8 @@
               <div class="ml-10 flex items-baseline space-x-4">
                 <x-navigation href="/" : active="request()->is('/')">Home</x-navigation> 
                 <x-navigation href="/about" : active="request()->is('/about')">About</x-navigation>  
-                <x-navigation href="/contact" : active="request()->is('/contact')">Contact</x-navigation> 
+                <x-navigation href="/contact" : active="request()->is('/contact')">Contact</x-navigation>
+                  <x-navigation href="/job" : active="request()->is('/job')">Join Our Team</x-navigation> 
                 <x-navigation href="/carsales" : active="request()->is('/carsales')">Sports Cars </x-navigation>
               </div>
               
