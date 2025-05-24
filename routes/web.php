@@ -10,7 +10,9 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function() {
-    return view('about');
+    return view('about',[
+        'PriceCars' => PriceCar::all()
+    ]);
 });
 
 Route::get('/contact', function() {
@@ -42,4 +44,5 @@ Route::get('/carsales/{id}', function ($id) {
 
     return view('car', ['car' => $car]);
 });
+
 

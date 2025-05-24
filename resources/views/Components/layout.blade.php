@@ -8,9 +8,10 @@
 </head>
 <style>
   body {
+    overflow: auto;
     height: 100vh;
     background-color: #ffffff;
-    overflow: hidden;
+    
   }
 
   img {
@@ -25,17 +26,21 @@
       opacity: 1;
       transform: scale(1);
     }
+    
   }
 </style>
 <body class="h-full">
   <div class="min-h-full">
+   
     <!-- NAVBAR -->
     <nav class="bg-white shadow-md">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="flex h-16 items-center justify-between">
           <div class="flex items-center">
             <div class="shrink-0">
-              <img src="https://i.postimg.cc/wv0dhfHJ/ferrari-brand-logo-car-symbol-with-name-black-design-italian-automobile-illustration-free-vector.jpg" alt="Logo FERRARI" />
+              <a  href="/">
+              <img src="https://i.postimg.cc/wv0dhfHJ/ferrari-brand-logo-car-symbol-with-name-black-design-italian-automobile-illustration-free-vector.jpg"alt="Logo FERRARI" />
+            </a>
             </div>
             <div class="hidden md:block">
               <div class="ml-10 flex items-baseline space-x-4">
