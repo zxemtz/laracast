@@ -15,7 +15,7 @@
   }
 
   img {
-    width: 100px;
+    width: 65px;
     opacity: 0;
     transform: scale(0.5);
     animation: aparecer 2s forwards;
@@ -39,7 +39,7 @@
           <div class="flex items-center">
             <div class="shrink-0">
               <a  href="/">
-              <img src="https://i.postimg.cc/wv0dhfHJ/ferrari-brand-logo-car-symbol-with-name-black-design-italian-automobile-illustration-free-vector.jpg"alt="Logo FERRARI" />
+              <img src="https://i.postimg.cc/P54qfPS1/ferrari-logo-437e5384.webp"alt="Logo FERRARI" />
             </a>
             </div>
             <div class="hidden md:block">
